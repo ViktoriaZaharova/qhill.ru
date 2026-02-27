@@ -7080,6 +7080,10 @@ p, a, li, span {
     margin-bottom: 30px;
 }
 
+.mb-40 {
+    margin-bottom: 40px;
+}   
+
 .mb-60 {
     margin-bottom: 60px;
 }
@@ -7258,4 +7262,245 @@ p, a, li, span {
     line-height: normal;
 }
 
+.system-architecture {
+    padding: 0;
+    background: transparent;
+    margin: 200px 0 120px;
+}
+
+.system-architecture-wrapper {
+    padding: 20px 0 55px;
+    background: #E2F1FF;
+}
+
+.system-architecture h2 {
+    margin: 0 0 32px;
+}
+
+.system-architecture h3 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+}
+
+.system-architecture .infrastructure__image {
+    max-width: 494px;
+    width: 100%;
+    top: -97px;
+    right: -40px;
+}
+
+.system-architecture .infrastructure__text {
+    margin: 0;
+    font-size: 20px;
+    font-weight: normal;
+    max-width: none;
+    width: 100%;
+}
+
+.system-architecture .infrastructure__text ul {
+    padding: 0;
+}
+
+.system-architecture__description {
+    margin: 45px 0 0;
+    font-size: 18px;
+    line-height: normal;
+    font-weight: normal;
+    color: #808080;
+    max-width: 967px;
+    width: 100%;
+}
+
+.requirements-system h2 {
+    margin: 0 0 50px;
+}
+
+.requirements-system-card {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #C4C5C7;
+    border-radius: 30px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #1D1D1B;
+    background: #fff;
+}
+
+.requirements-system-card h3 {
+    margin: 0 0 20px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.requirements-system-card__body {
+    margin: 0 0 auto;
+}
+
+.requirements-system-card__img {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 0;
+}
+
+.requirements-system-card__img img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.box-text {
+    font-size: 16px;
+    line-height: normal;
+}
+
+.box-text p {
+    margin: 20px 0 0;
+}
+
+.box-text p:first-child {
+    margin: 0;
+}
+
+a.color-blue {
+    color: #0047AB
+}
+
+.softwsre-cycle__subtitle {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0 0 55px;
+}
+
+.softwsre-cycle-card {
+    width: 100%;
+    margin: 0 0 50px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid #0047AB;
+    border-radius: 30px;
+    padding: 30px;
+    
+}
+
+
+
+.softwsre-cycle-card:last-child {
+    margin: 0;
+}
+
+.softwsre-cycle-card__img {
+    width: 195px;
+    height: 195px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.softwsre-cycle-card__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.softwsre-cycle-card__body {
+    width: calc(100% - 195px);
+    padding: 0 0 0 20px;
+}
+
+.softwsre-cycle-card h4 {
+    margin: 0 0 15px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.softwsre-cycle-card .box-text {
+    font-size: 20px;
+    line-height: normal;
+}
+
+.system-licensing {
+    margin: 100px 0;
+}
+
+.system-licensing-card {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #0047AB;
+    border-radius: 30px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.system-licensing-card h3 {
+    margin: 0 0 24px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.system-licensing-card__body {
+    width: 100%;
+    margin: 0 0 auto;
+}
+
+.system-licensing-card__footer {
+    margin: 18px 0 0;
+    width: 100%;
+}
+
+.system-licensing-card .box-text {
+    font-size: 20px;
+}
+
+.link-download {
+    display: flex;
+    align-items: center;
+    padding: 14px 0;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: normal;
+    color: #808080;
+}
+
+.link-download span {
+    margin: 0 0 0 16px;
+}
+
+.link-download:hover {
+   color: #0047AB; 
+}
+
+.btn-border-accent {
+    height: 58px;
+    padding: 16px;
+    border: 1px solid #0047AB;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #0047AB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-border-accent:hover, .btn-border-accent:focus {
+    background: #0047AB;
+    color: #fff;
+}
+
+.w-100 {
+    width: 100%;
+}
 /* styles QuantHill end */

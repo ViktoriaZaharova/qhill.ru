@@ -887,42 +887,281 @@
 			</div>
 		</section>
 
+		<section class="infrastructure system-architecture">
+			<div class="system-architecture-wrapper w-100">
+				<div class="container">
+					<div class="row position-relative">
+						<div class="col-12 col-lg-8">
+							<h2 class="section-title-h2">Архитектура системы</h2>
 
-		<!-- infrastructure -->
-		<section class="infrastructure">
-			<div class="container">
-				<div class="row infrastructure__block position-relative">
-					<div class="col-12 col-lg-8">
-						<h2 class="section-title-h2">Архитектура системы</h2>
-
-						<div class="row">
-							<div class="col-12 col-lg-6">
-								<h3>Программное обеспечение включает в себя графическую оболочку (Терминал) для удобства
-									управления счетами, заявками, роботами, а также обширную внутреннюю часть:</h3>
-							</div>
-							<div class="col-12 col-lg-6">
-								<div class="infrastructure__text sub text mt-3 text-center text-sm-start">
-									<ul class="list-dots">
-										<li>Модули обработки данных от бирж и преобразования внутренних команд;</li>
-										<li>Модули работы с базой данных;</li>
-										<li>Распределенную систему мониторинга инцидентов;</li>
-										<li>Модуль оповещения об инцидентах и состояниях счетов;</li>
-										<li>Библиотеку торговых роботов.</li>
-									</ul>
+							<div class="row">
+								<div class="col-12 col-lg-6">
+									<h3>Программное обеспечение включает в себя графическую оболочку (Терминал) для
+										удобства
+										управления счетами, заявками, роботами, а также обширную внутреннюю часть:</h3>
+								</div>
+								<div class="col-12 col-lg-6">
+									<div class="infrastructure__text">
+										<ul class="list-dots">
+											<li>Модули обработки данных от бирж и преобразования внутренних команд;</li>
+											<li>Модули работы с базой данных;</li>
+											<li>Распределенную систему мониторинга инцидентов;</li>
+											<li>Модуль оповещения об инцидентах и состояниях счетов;</li>
+											<li>Библиотеку торговых роботов.</li>
+										</ul>
+									</div>
 								</div>
 							</div>
 						</div>
+						<div class="col-12 col-lg-4">
+							<div class="infrastructure__image">
+								<img src="../wp-content/themes/qh/img/quanthill/qant-img.png" alt="photo">
+							</div>
+						</div>
 					</div>
-					<div class="col-12 col-lg-4">
-						<div class="infrastructure__image">
-							<img src="../wp-content/themes/qh/img/quanthill/qant-img.png" alt="photo">
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-lg-8 col-xl-9">
+						<div class="system-architecture__description">
+							<p>Для возможности гибкого развития системы путём добавления новых модулей, а также из-за
+								ограничений Python на использование CPU было принято решение использовать модульную
+								(микросервисную) архитектуру с обменом данными между модулями с помощью сокетов ZeroMQ.
+							</p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
 
+		<section class="requirements-system">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<h2 class="section-title-h2">Требования к эксплуатации системы</h2>
+					</div>
+				</div>
 
+				<div class="row">
+					<div class="col-12 col-md-4 mb-40">
+						<div class="requirements-system-card">
+							<div class="requirements-system-card__body">
+								<h3>Установка и эксплуатация системы</h3>
+								<div class="box-text">
+									<p>Приложение для управления клиентами и торговлей системы QAnt - <a href="#"
+											target="_blank" class="d-inline color-blue">Скачать</a>
+
+									</p>
+									<p>Требования к операционной
+										системе: Windows 8.1 и более поздние версии</p>
+									<p>Запуск:</p>
+									<ul class="list-dots">
+										<li>переместить директорию .ssh в домашнюю директорию пользователя;</li>
+										<li>исправить путь до приватного ключа SSH в файле settings.ini (key_file);</li>
+										<li>запустить qterminal</li>
+										<li>ввести логин и пароль</li>
+									</ul>
+								</div>
+							</div>
+							<div class="requirements-system-card__img"><img
+									src="../wp-content/themes/qh/img/quanthill/requirements-img1.jpg" alt=""></div>
+						</div>
+					</div>
+					<div class="col-12 col-md-4 mb-40">
+						<div class="requirements-system-card">
+							<div class="requirements-system-card__body">
+								<h3>Минимальные системные требования</h3>
+								<div class="box-text">
+									<ul class="list-dots">
+										<li>ОС: Windows 7 и выше, Linux Qt 5.15 и выше, Mac OC 10.15 и выше;</li>
+										<li>Экран: Разрешение 1024х768 Пикс;</li>
+										<li>Процессор: Intel/AMD-совместимый x64, с частотой 2 ГГц;</li>
+										<li>Видеокарта: 512 Мб;</li>
+										<li>ОЗУ: 75 Мб;</li>
+										<li>Язык – Python;</li>
+										<li>Объем программы (место на диске) – 130 МБ</li>
+									</ul>
+								</div>
+							</div>
+							<div class="requirements-system-card__img"><img
+									src="../wp-content/themes/qh/img/quanthill/requirements-img2.jpg" alt=""></div>
+						</div>
+					</div>
+					<div class="col-12 col-md-4 mb-40">
+						<div class="requirements-system-card">
+							<div class="requirements-system-card__body">
+								<h3>Резервное копирование данных</h3>
+								<div class="box-text">
+									<p>Ежедневное резервное копирование данных включает в себя:
+									</p>
+									<ul class="list-dots">
+										<li>Создание резервной копии файлов Системы;</li>
+										<li>Создание резервных копий БД.</li>
+									</ul>
+									<p>Настройка регулярного резервного копирования БД выполняется с использованием
+										специализированных утилит СУБД и инструментов ОС.</p>
+								</div>
+							</div>
+							<div class="requirements-system-card__img"><img
+									src="../wp-content/themes/qh/img/quanthill/requirements-img3.jpg" alt=""></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="softwsre-cycle">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-lg-9 col-xl-10">
+						<h2 class="section-title-h2 mb-4">Жизненный цикл ПО</h2>
+						<h3 class="softwsre-cycle__subtitle">Поддержание жизненного цикла Системы обеспечивается за счет
+							её сопровождения и проведения
+							обновлений в соответствии с собственным планом разработки.</h3>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-12">
+						<div class="softwsre-cycle-card">
+							<div class="softwsre-cycle-card__img"><img
+									src="../wp-content/themes/qh/img/quanthill/cycle-img1.jpg" alt=""></div>
+							<div class="softwsre-cycle-card__body">
+								<h4>Поддержка и сопровождение</h4>
+								<div class="box-text">
+									<ul class="list-dots">
+										<li>Актуализацию (обновление) версии ПО;</li>
+										<li>Обработку запросов от пользователей и устранение замечаний, связанных с
+											некорректной работой ПО;</li>
+										<li>Консультации по работе с ПО (консультации сотрудников и администраторов по
+											вопросам, связанным с функциональными возможностями ПО, эффективным
+											использованием ПО, обслуживанием и администрированием ПО и т.д.);</li>
+										<li>Актуализацию пользовательской документации ПО</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="softwsre-cycle-card">
+							<div class="softwsre-cycle-card__img"><img
+									src="../wp-content/themes/qh/img/quanthill/cycle-img2.jpg" alt=""></div>
+							<div class="softwsre-cycle-card__body">
+								<h4>Устранение неисправностей</h4>
+								<div class="box-text">
+									<p>Неисправности, выявленные в ходе эксплуатации Системы, могут быть исправлены
+										следующим образом:
+									</p>
+									<ul class="list-dots">
+										<li>предоставление пользователю архива с файлами обновлённой системы (Терминал)
+											посредством электронной почты, либо других средств цифровой коммуникации
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="softwsre-cycle-card">
+							<div class="softwsre-cycle-card__img"><img
+									src="../wp-content/themes/qh/img/quanthill/cycle-img3.jpg" alt=""></div>
+							<div class="softwsre-cycle-card__body">
+								<h4>Процесс разработки</h4>
+								<div class="box-text">
+									<ul class="list-dots">
+										<li>Разработка новых модулей и функций;</li>
+										<li>Развитие и оптимизация текущих модулей и функций;</li>
+										<li>Комплексное тестирование (Unit-тестирование, интеграционное, регрессионное и
+											нагрузочное тестирование);</li>
+										<li>Исправление найденных ошибок;</li>
+										<li>Разработка документации и инструкций</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="softwsre-cycle-card">
+							<div class="softwsre-cycle-card__img"><img
+									src="../wp-content/themes/qh/img/quanthill/cycle-img4.jpg" alt=""></div>
+							<div class="softwsre-cycle-card__body">
+								<h4>Модернизация/обновление ПО</h4>
+								<div class="box-text">
+									<p>Выпуск новых версий осуществляется в соответствии с собственным планом
+										разработки, а также в случае выявленных проблем в ходе эксплуатации программного
+										обеспечения у конечных потребителей</p>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="system-licensing">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-lg-8">
+						<h2 class="section-title-h2 mb-5">Правила лицензирования системы</h2>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-12 col-md-6 col-lg-3 mb-40">
+						<div class="system-licensing-card">
+							<div class="system-licensing-card__body">
+								<h3>Программное обеспечение</h3>
+								<div class="box-text">
+									<p>Продукт поставляется в виде архива с исполняемым файлом. Для запуска требуется верификация ключей доступа с администратором.</p>
+								</div>
+							</div>
+							<div class="system-licensing-card__footer">
+								<a href="#" class="link-download" download="#"><img
+										src="../wp-content/themes/qh/img/quanthill/download-icon.svg"
+										alt=""><span>Скачать архив</span></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-3 mb-40">
+						<div class="system-licensing-card">
+							<div class="system-licensing-card__body">
+								<h3>Лицензионная политика</h3>
+								<div class="box-text">
+									<p>Лицензионная политика определяет права заказчика по использованию функционала Системы и осуществляется путём администрации ключей на использование информационной Системы.</p>
+								</div>
+							</div>
+							<div class="system-licensing-card__footer">
+								<a href="#" class="btn btn-border-accent w-100" target="_blank">Смотреть политику</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-3 mb-40">
+						<div class="system-licensing-card">
+							<div class="system-licensing-card__body">
+								<h3>Стоимость лицензий</h3>
+								<div class="box-text">
+									<p>Стоимость лицензий рассчитывается индивидуально и предоставляется по запросу на почту info@quanthill.ru</p>
+								</div>
+							</div>
+							<div class="system-licensing-card__footer">
+								<a href="#" class="btn btn-border-accent w-100" target="_blank">Смотреть политику</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-3 mb-40">
+						<div class="system-licensing-card">
+							<div class="system-licensing-card__body">
+								<h3>Руководство пользователя</h3>
+								<div class="box-text">
+									<p>Описание интерфейса, основных разделов и функций системы.</p>
+								</div>
+							</div>
+							<div class="system-licensing-card__footer">
+								<a href="#" class="link-download" download="#"><img
+										src="../wp-content/themes/qh/img/quanthill/download-icon.svg"
+										alt=""><span>Скачать PDF</span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
 
 	</main>
