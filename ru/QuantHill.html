@@ -945,6 +945,196 @@
 						</div>
 					</div>
 				</div>
+
+
+				<div class="row modules-wrapper">
+
+					<!-- LEFT TABS (desktop only) -->
+					<div class="col-lg-4 d-none d-lg-block">
+
+						<div class="nav flex-column modules-tabs nav-pills">
+
+							<button class="modules-tab active" data-bs-toggle="pill" data-bs-target="#tab1">
+								<span>Модули системы</span>
+							</button>
+
+							<button class="modules-tab" data-bs-toggle="pill" data-bs-target="#tab2">
+								<span>Модули подключения бирж</span>
+							</button>
+
+							<button class="modules-tab" data-bs-toggle="pill" data-bs-target="#tab3">
+								<span>Зависимости</span>
+							</button>
+
+						</div>
+
+					</div>
+
+
+					<!-- CONTENT -->
+					<div class="col-lg-8">
+
+						<div class="tab-content modules-content">
+
+
+							<!-- TAB 1 -->
+							<div class="tab-pane fade show active modules-pane" id="tab1">
+
+								<button class="modules-accordion-toggle d-lg-none" data-bs-toggle="collapse"
+									data-bs-target="#collapse1" aria-expanded="true">
+									Модули системы
+								</button>
+
+								<div class="collapse show d-lg-block" id="collapse1">
+
+									<div class="modules-box box-text">
+										<p><strong>qant_terminal</strong> — графический интерфейс для управления
+											счетами, заявками,
+											портфелями торговых роботов, а также наглядного представления
+											работоспособности
+											торговой системы и результатов торговли (далее “терминал”), написан на языке
+											программирования Python.</p>
+										<p><strong>qant_lib</strong> — общая библиотека для всех модулей и их
+											совместного взаимодействия,
+											написана на языке программирования Python.</p>
+										<p><strong>qant_connector</strong> — ядро всей системы (далее “коннектор”),
+											содержит модули
+											взаимодействия с бэкендами бирж (feeds - обработка публичных данных,
+											executors -
+											обработка приватных данных), которые приводят все данные к
+											стандартизированному
+											виду системы QAnt, а также модуль order_manager, который обеспечивает
+											корректное
+											взаимодействие роботов (трейдеров) с соответствующими feeds и executors,
+											написано на языке программирования Python.</p>
+										<p><strong>qant_managers</strong> — модули управления роботами, предоставления
+											информации о
+											состояниях роботов и подключений, балансах, позициях, заявках из коннектора
+											в
+											терминал и другие модули, написаны на языке программирования Python.</p>
+										<p><strong>qant_telegram_bot</strong> — модуль рассылки информации об
+											инцидентах, состояний счетов
+											клиентов в чаты мессенджеров Telegram и Slack, написан на языке
+											программирования
+											Python.</p>
+										<p><strong></strong>qant_bots</strong> — библиотека с примерами торговых роботов
+											и индикаторов, написана на
+											языке программирования Python.</p>
+									</div>
+
+								</div>
+
+							</div>
+
+
+
+							<!-- TAB 2 -->
+							<div class="tab-pane fade modules-pane" id="tab2">
+
+								<button class="modules-accordion-toggle d-lg-none" data-bs-toggle="collapse"
+									data-bs-target="#collapse2">
+									Модули подключения бирж
+								</button>
+
+								<div class="collapse d-lg-block" id="collapse2">
+
+									<div class="modules-box box-text">
+										<p><strong>qant_terminal</strong> — графический интерфейс для управления
+											счетами, заявками,
+											портфелями торговых роботов, а также наглядного представления
+											работоспособности
+											торговой системы и результатов торговли (далее “терминал”), написан на языке
+											программирования Python.</p>
+										<p><strong>qant_lib</strong> — общая библиотека для всех модулей и их
+											совместного взаимодействия,
+											написана на языке программирования Python.</p>
+										<p><strong>qant_connector</strong> — ядро всей системы (далее “коннектор”),
+											содержит модули
+											взаимодействия с бэкендами бирж (feeds - обработка публичных данных,
+											executors -
+											обработка приватных данных), которые приводят все данные к
+											стандартизированному
+											виду системы QAnt, а также модуль order_manager, который обеспечивает
+											корректное
+											взаимодействие роботов (трейдеров) с соответствующими feeds и executors,
+											написано на языке программирования Python.</p>
+										<p><strong>qant_managers</strong> — модули управления роботами, предоставления
+											информации о
+											состояниях роботов и подключений, балансах, позициях, заявках из коннектора
+											в
+											терминал и другие модули, написаны на языке программирования Python.</p>
+										<p><strong>qant_telegram_bot</strong> — модуль рассылки информации об
+											инцидентах, состояний счетов
+											клиентов в чаты мессенджеров Telegram и Slack, написан на языке
+											программирования
+											Python.</p>
+										<p><strong></strong>qant_bots</strong> — библиотека с примерами торговых роботов
+											и индикаторов, написана на
+											языке программирования Python.</p>
+									</div>
+
+								</div>
+
+							</div>
+
+
+
+							<!-- TAB 3 -->
+							<div class="tab-pane fade modules-pane" id="tab3">
+
+								<button class="modules-accordion-toggle d-lg-none" data-bs-toggle="collapse"
+									data-bs-target="#collapse3">
+									Зависимости
+								</button>
+
+								<div class="collapse d-lg-block" id="collapse3">
+
+									<div class="modules-box box-text">
+										<p><strong>qant_terminal</strong> — графический интерфейс для управления
+											счетами, заявками,
+											портфелями торговых роботов, а также наглядного представления
+											работоспособности
+											торговой системы и результатов торговли (далее “терминал”), написан на языке
+											программирования Python.</p>
+										<p><strong>qant_lib</strong> — общая библиотека для всех модулей и их
+											совместного взаимодействия,
+											написана на языке программирования Python.</p>
+										<p><strong>qant_connector</strong> — ядро всей системы (далее “коннектор”),
+											содержит модули
+											взаимодействия с бэкендами бирж (feeds - обработка публичных данных,
+											executors -
+											обработка приватных данных), которые приводят все данные к
+											стандартизированному
+											виду системы QAnt, а также модуль order_manager, который обеспечивает
+											корректное
+											взаимодействие роботов (трейдеров) с соответствующими feeds и executors,
+											написано на языке программирования Python.</p>
+										<p><strong>qant_managers</strong> — модули управления роботами, предоставления
+											информации о
+											состояниях роботов и подключений, балансах, позициях, заявках из коннектора
+											в
+											терминал и другие модули, написаны на языке программирования Python.</p>
+										<p><strong>qant_telegram_bot</strong> — модуль рассылки информации об
+											инцидентах, состояний счетов
+											клиентов в чаты мессенджеров Telegram и Slack, написан на языке
+											программирования
+											Python.</p>
+										<p><strong></strong>qant_bots</strong> — библиотека с примерами торговых роботов
+											и индикаторов, написана на
+											языке программирования Python.</p>
+									</div>
+
+								</div>
+
+							</div>
+
+
+						</div>
+
+					</div>
+
+				</div>
+
 			</div>
 		</section>
 

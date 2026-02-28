@@ -7622,6 +7622,137 @@ a.color-blue {
     justify-content: space-between;
 }
 
+
+
+.modules-wrapper {
+    margin-top: 70px;
+}
+
+.modules-tab {
+    max-width: 423px;
+    width: 100%;
+    margin: 0 0 15px;
+    height: 89px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: none;
+    border-radius: 30px;
+    padding: 0;
+    background: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+    position: relative;
+    z-index: 1;
+}
+
+.modules-tab span {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    padding: 30px 20px;
+    border-radius: 30px;
+    background: #fff;
+    border: 1px solid #C4C5C7;
+    transition: .3s ease;
+}
+
+
+.modules-tab:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 40px;
+    width: 1000px;
+    height: 89px;
+    background: #F7F7F7;
+    z-index: -2;
+    border-radius: 30px;
+    opacity: 0;
+}
+
+.modules-tab.active:after {
+    opacity: 1;
+}
+
+.modules-tab.active span,
+.modules-tab:hover span {
+    color: #fff;
+    background: #0047AB;
+    border-color: #0047AB;
+}
+
+
+.modules-content {
+    border-radius: 30px;
+    padding: 30px 35px 40px;
+    background: #F7F7F7;
+    position: relative;
+    z-index: 2;
+}
+
+.modules-box p {
+    margin: 35px 0 0;
+}
+
+.modules-box p:first-child {
+    margin: 0;
+}
+
+.modules-accordion-toggle {
+    width: 100%;
+    background: #fff;
+    color: #1D1D1B;
+    border: 1px solid #C4C5C7;
+    border-radius: 30px;
+    padding: 22px 25px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.modules-accordion-toggle::after {
+    content: "";
+    display: block;
+    width: 25px;
+    height: 20px;
+    background: url('../img/quanthill/arrow-grey.svg') no-repeat center;
+    background-size: 100%;
+    transition: .3s;
+    margin-left: auto;
+}
+
+.modules-accordion-toggle[aria-expanded="true"] {
+    background: #0047AB;
+    color: #fff;
+    border-color: #0047AB;
+}
+
+.modules-accordion-toggle[aria-expanded="false"] {
+    background: #fff;
+    color: #1D1D1B;
+    border: 1px solid #C4C5C7;
+}
+
+.modules-accordion-toggle[aria-expanded="true"]::after {
+    background: url('../img/quanthill/arrow-white.svg') no-repeat center;
+    background-size: 100%;
+}
+
+
+
+
+
 @media screen and (max-width: 1400px) {
     .section-first__img {
         min-width: auto;
@@ -7697,6 +7828,10 @@ a.color-blue {
         text-align: center;
         margin: 20px auto 0;
     }
+
+    .modules-tab {
+        font-size: 20px;
+    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -7743,7 +7878,9 @@ a.color-blue {
         margin: 0 0 30px !important;
     }
 
-
+    .modules-tab:after {
+        width: 700px;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -7875,6 +8012,37 @@ a.color-blue {
         text-align: center;
         max-width: none;
     }
+
+    .modules-wrapper {
+        margin-top: 50px;
+    }
+
+    .modules-content {
+        background: transparent;
+        padding: 0;
+        border-radius: 0;
+    }
+
+
+    .modules-content>.modules-pane {
+        opacity: 1;
+        display: block;
+    }
+
+    .modules-box {
+        padding: 110px 30px 35px;
+        background: #F7F7F7;
+        border-radius: 30px;
+        margin: -72px 0 0;
+    }
+
+    .modules-pane {
+        margin: 0 0 17px;
+    }
+
+    .modules-pane:last-child {
+        margin: 0;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -7968,7 +8136,8 @@ a.color-blue {
     .system-architecture .infrastructure__text,
     .system-architecture__description,
     .softwsre-cycle-card .box-text,
-    .system-licensing-card .box-text, .callback-section__subtitle {
+    .system-licensing-card .box-text,
+    .callback-section__subtitle {
         font-size: 14px;
     }
 
@@ -7978,6 +8147,14 @@ a.color-blue {
 
     .system-licensing {
         margin: 50px 0 10px;
+    }
+
+    .modules-box p {
+        margin: 20px 0 0;
+    }
+
+    .modules-wrapper {
+        margin-top: 40px;
     }
 }
 
