@@ -7379,14 +7379,14 @@ a.color-blue {
     color: #0047AB
 }
 
-.softwsre-cycle__subtitle {
+.software-cycle__subtitle {
     font-size: 24px;
     font-weight: 600;
     line-height: normal;
     margin: 0 0 55px;
 }
 
-.softwsre-cycle-card {
+.software-cycle-card {
     width: 100%;
     margin: 0 0 50px;
     display: flex;
@@ -7398,11 +7398,11 @@ a.color-blue {
 }
 
 
-.softwsre-cycle-card:last-child {
+.software-cycle-card:last-child {
     margin: 0;
 }
 
-.softwsre-cycle-card__img {
+.software-cycle-card__img {
     width: 195px;
     height: 195px;
     display: flex;
@@ -7411,26 +7411,26 @@ a.color-blue {
     overflow: hidden;
 }
 
-.softwsre-cycle-card__img img {
+.software-cycle-card__img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 15px;
 }
 
-.softwsre-cycle-card__body {
+.software-cycle-card__body {
     width: calc(100% - 195px);
     padding: 0 0 0 20px;
 }
 
-.softwsre-cycle-card h4 {
+.software-cycle-card h4 {
     margin: 0 0 15px;
     font-size: 24px;
     font-weight: 600;
     line-height: normal;
 }
 
-.softwsre-cycle-card .box-text {
+.software-cycle-card .box-text {
     font-size: 20px;
     line-height: normal;
 }
@@ -7750,9 +7750,6 @@ a.color-blue {
 }
 
 
-
-
-
 @media screen and (max-width: 1400px) {
     .section-first__img {
         min-width: auto;
@@ -7856,17 +7853,17 @@ a.color-blue {
         margin: 0 0 40px;
     }
 
-    .softwsre-cycle__subtitle {
+    .software-cycle__subtitle {
         margin: 26px 0;
         font-size: 20px;
     }
 
-    .softwsre-cycle-card {
+    .software-cycle-card {
         padding: 30px;
         margin: 0 0 40px;
     }
 
-    .softwsre-cycle-card .box-text {
+    .software-cycle-card .box-text {
         font-size: 16px;
     }
 
@@ -8066,12 +8063,12 @@ a.color-blue {
         font-size: 16px;
     }
 
-    .softwsre-cycle-card {
+    .software-cycle-card {
         position: relative;
         z-index: 1;
     }
 
-    .softwsre-cycle-card h4 {
+    .software-cycle-card h4 {
         min-height: 110px;
         padding: 0 0 0 130px;
         font-size: 20px;
@@ -8080,7 +8077,7 @@ a.color-blue {
         margin: 0 0 20px;
     }
 
-    .softwsre-cycle-card__img {
+    .software-cycle-card__img {
         position: absolute;
         top: 30px;
         left: 30px;
@@ -8088,7 +8085,7 @@ a.color-blue {
         height: 110px;
     }
 
-    .softwsre-cycle-card__body {
+    .software-cycle-card__body {
         width: 100%;
         padding: 0;
     }
@@ -8135,7 +8132,7 @@ a.color-blue {
     .technical-means .principles__text,
     .system-architecture .infrastructure__text,
     .system-architecture__description,
-    .softwsre-cycle-card .box-text,
+    .software-cycle-card .box-text,
     .system-licensing-card .box-text,
     .callback-section__subtitle {
         font-size: 14px;
