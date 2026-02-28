@@ -7098,6 +7098,10 @@ p, a, li, span {
     padding: 0 0 0 20px;
 }
 
+.platform-home h1 {
+    font-size: 60px;
+}
+
 .platform-page .section-first {
     background: url('../img/quanthill/slavabond_design_digital_background_blue_and_black_--ar_73_--pr_e899e95e-dec2-4b4b-8543-7ac34489e204\ 1.jpg') no-repeat center;
     background-size: cover;
@@ -7387,9 +7391,7 @@ a.color-blue {
     border: 1px solid #0047AB;
     border-radius: 30px;
     padding: 30px;
-
 }
-
 
 
 .softwsre-cycle-card:last-child {
@@ -7606,5 +7608,225 @@ a.color-blue {
     width: 100%;
 }
 
+
+@media screen and (max-width: 1400px) {
+    .section-first__img {
+        min-width: auto;
+    }
+
+    .platform-home h1,
+    .section-title-h2 {
+        font-size: 50px;
+    }
+
+    .platform-page .section-first .main-screen__text {
+        font-size: 20px;
+        margin: 17px 0;
+    }
+
+    .platform-page .section-first .list-checked {
+        font-size: 16px;
+    }
+
+    .possibilities-card {
+        padding: 26px 22px;
+    }
+
+    .possibilities-card h3 {
+        font-size: 30px;
+    }
+
+    .functional-characteristics {
+        margin: 60px 0 80px;
+    }
+
+    .technical-means .principles__number {
+        font-size: 100px;
+    }
+
+    .system-architecture .infrastructure__image {
+        max-width: 400px;
+        right: 0;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    .system-architecture .infrastructure__text {
+        font-size: 16px;
+    }
+
+    .system-architecture h3 {
+        font-size: 20px;
+    }
+
+    .system-architecture .infrastructure__image {
+        max-width: 300px;
+        top: -50px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    .platform-home h1,
+    .section-title-h2 {
+        font-size: 40px;
+    }
+
+    .mb-60 {
+        margin-bottom: 32px;
+    }
+
+    .section-first__img {
+        margin: 30px 0 -85px;
+    }
+
+    .platform-page .section-first {
+        margin: 0 0 140px;
+        padding: 40px 0 0;
+    }
+
+    .platform-page .section-first .main-screen__text {
+        max-width: none;
+    }
+
+    .possibilities-card h3 {
+        font-size: 24px;
+    }
+
+    .possibilities {
+        margin: 140px 0 32px;
+    }
+
+    .list-functional-characteristics {
+        font-size: 16px;
+    }
+
+    .list-functional-characteristics li {
+        margin: 0 0 40px;
+    }
+
+    .list-characteristics__icon {
+        width: 58px;
+        height: 56px;
+        min-width: 58px;
+        margin: 0 30px 0 0;
+    }
+
+    .functional-characteristics {
+        margin: 30px 0 20px;
+    }
+
+    .technical-means h2 {
+        margin: 0 0 50px;
+    }
+
+    .technical-means .principles__wrap {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 50px;
+    }
+
+    .technical-means .principles__item {
+        padding: 0 .625rem;
+    }
+
+    .system-architecture {
+        margin: 63px 0;
+    }
+
+    .system-architecture h2 {
+        margin: 0 0 17px;
+    }
+
+    .system-architecture h3 {
+        font-size: 20px;
+    }
+
+    .system-architecture-wrapper {
+        padding: 30px 0;
+    }
+
+    .system-architecture .infrastructure__image {
+        top: 0;
+        right: 0;
+        position: relative;
+        margin: 17px 0 -134px auto;
+        width: calc(100% - 60px);
+        max-width: none;
+        left: auto;
+    }
+
+    .system-architecture__description {
+        margin: 150px 0 0;
+    }
+
+    .system-architecture .infrastructure__text {
+        margin: 17px 0 0;
+    }
+
+    .system-architecture .infrastructure__text ul {
+        padding: 0 0 0 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .possibilities-card .text {
+        font-size: 16px;
+    }
+
+    .technical-means .principles__wrap {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .technical-means .principles__number {
+        font-size: 88px;
+    }
+
+    .technical-means .principles__name {
+        font-size: 24px;
+    }
+
+    .system-architecture__description {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .section-title-h2,
+    .platform-home h1 {
+        font-size: 32px;
+    }
+
+    .platform-page .section-first .list-checked {
+        font-size: 14px;
+    }
+
+    .section-first__img {
+        margin: 30px 0 -55px;
+    }
+
+    .possibilities-card .text {
+        font-size: 14px;
+    }
+
+    .list-functional-characteristics {
+        font-size: 14px;
+    }
+
+    .technical-means .principles__text {
+        font-size: 14px;
+    }
+
+   
+
+    .system-architecture .infrastructure__text {
+        font-size: 14px;
+    }
+
+    .system-architecture__description {
+        font-size: 14px;
+    }
+}
 
 /* styles QuantHill end */

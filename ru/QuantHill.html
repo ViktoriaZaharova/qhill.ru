@@ -637,8 +637,23 @@
 
 	<main class="index-page platform-page">
 
-		<section class="main-screen section-first">
-			<div class="breadcrumbs">
+		<div class="breadcrumbs d-flex d-lg-none">
+				<div class="container">
+					<nav aria-label="breadcrumb" style="--bs-breadcrumb-divider: ' - ';">
+						<ol class="breadcrumb">
+							<li class="breadcrumb-item" itemprop="itemListElement" itemscope=""
+								itemtype="http://schema.org/ListItem">
+								<a itemprop="item" href="../index.html"><span itemprop="name">Главная</span></a>
+								<meta itemprop="position" content="1">
+							</li>
+							<li class="breadcrumb-item active">Платформа QAnt</li>
+						</ol>
+					</nav>
+				</div>
+			</div>
+
+		<section class="main-screen section-first platform-home">
+			<div class="breadcrumbs d-none d-lg-flex">
 				<div class="container">
 					<nav aria-label="breadcrumb" style="--bs-breadcrumb-divider: ' - ';">
 						<ol class="breadcrumb">
@@ -724,7 +739,6 @@
 				</div>
 			</div>
 		</section>
-
 
 		<section class="functional-characteristics">
 			<div class="container">
@@ -824,7 +838,6 @@
 				</div>
 			</div>
 		</section>
-
 
 		<section class="principles technical-means">
 			<div class="container">
