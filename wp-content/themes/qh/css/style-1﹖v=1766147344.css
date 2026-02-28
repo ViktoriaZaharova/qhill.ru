@@ -7317,6 +7317,10 @@ p, a, li, span {
     width: 100%;
 }
 
+.requirements-system {
+    margin: 0 0 50px;
+}
+
 .requirements-system h2 {
     margin: 0 0 50px;
 }
@@ -7608,6 +7612,15 @@ a.color-blue {
     width: 100%;
 }
 
+.form-callback [type='submit'] {
+    margin: 0 20px 0 0;
+}
+
+.form-callback__footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 @media screen and (max-width: 1400px) {
     .section-first__img {
@@ -7649,6 +7662,41 @@ a.color-blue {
         right: 0;
     }
 
+    .requirements-system-card {
+        padding: 30px;
+    }
+
+    .callback-section-wrapper {
+        padding: 40px;
+    }
+
+    .callback-section__subtitle {
+        font-size: 16px;
+        max-width: 430px;
+    }
+
+    .form-callback {
+        flex-wrap: wrap;
+        margin: 0 -10px;
+    }
+
+    .form-callback label {
+        width: 33.33%;
+        padding: 0 10px;
+        margin: 0 0 20px;
+    }
+
+    .form-callback__footer {
+        width: 100%;
+        padding: 0 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .consent {
+        text-align: center;
+        margin: 20px auto 0;
+    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -7664,6 +7712,38 @@ a.color-blue {
         max-width: 300px;
         top: -50px;
     }
+
+    .requirements-system {
+        margin: 0 0 40px;
+    }
+
+    .requirements-system h2 {
+        margin: 0 0 40px;
+    }
+
+    .softwsre-cycle__subtitle {
+        margin: 26px 0;
+        font-size: 20px;
+    }
+
+    .softwsre-cycle-card {
+        padding: 30px;
+        margin: 0 0 40px;
+    }
+
+    .softwsre-cycle-card .box-text {
+        font-size: 16px;
+    }
+
+    .system-licensing {
+        margin: 50px 0;
+    }
+
+    .system-licensing h2 {
+        margin: 0 0 30px !important;
+    }
+
+
 }
 
 @media screen and (max-width: 992px) {
@@ -7754,6 +7834,7 @@ a.color-blue {
         width: calc(100% - 60px);
         max-width: none;
         left: auto;
+        max-width: 600px;
     }
 
     .system-architecture__description {
@@ -7766,6 +7847,33 @@ a.color-blue {
 
     .system-architecture .infrastructure__text ul {
         padding: 0 0 0 20px;
+    }
+
+    .requirements-system-card h3 {
+        font-size: 20px;
+    }
+
+    .system-licensing-card h3 {
+        font-size: 20px;
+    }
+
+    .system-licensing-card .box-text {
+        font-size: 16px;
+    }
+
+    .callback-section {
+        margin: 0 0 50px;
+    }
+
+    .callback-section-wrapper__head {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .callback-section__subtitle {
+        margin: 20px auto 0;
+        text-align: center;
+        max-width: none;
     }
 }
 
@@ -7789,6 +7897,49 @@ a.color-blue {
     .system-architecture__description {
         font-size: 16px;
     }
+
+    .softwsre-cycle-card {
+        position: relative;
+        z-index: 1;
+    }
+
+    .softwsre-cycle-card h4 {
+        min-height: 110px;
+        padding: 0 0 0 130px;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        margin: 0 0 20px;
+    }
+
+    .softwsre-cycle-card__img {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        width: 110px;
+        height: 110px;
+    }
+
+    .softwsre-cycle-card__body {
+        width: 100%;
+        padding: 0;
+    }
+
+    .callback-section h2 {
+        text-align: center;
+    }
+
+    .form-callback {
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form-callback label {
+        padding: 0;
+        width: 100%;
+        margin: 0 0 20px;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -7798,34 +7949,35 @@ a.color-blue {
         font-size: 32px;
     }
 
-    .platform-page .section-first .list-checked {
-        font-size: 14px;
-    }
-
     .section-first__img {
         margin: 30px 0 -55px;
     }
 
-    .possibilities-card .text {
+    .box-text {
         font-size: 14px;
     }
 
-    .list-functional-characteristics {
+    .requirements-system-card__img {
+        margin: 30px 0 0;
+    }
+
+    .possibilities-card .text,
+    .platform-page .section-first .list-checked,
+    .list-functional-characteristics,
+    .technical-means .principles__text,
+    .system-architecture .infrastructure__text,
+    .system-architecture__description,
+    .softwsre-cycle-card .box-text,
+    .system-licensing-card .box-text, .callback-section__subtitle {
         font-size: 14px;
     }
 
-    .technical-means .principles__text {
-        font-size: 14px;
+    .system-licensing-card__footer {
+        margin: 20px 0 0;
     }
 
-   
-
-    .system-architecture .infrastructure__text {
-        font-size: 14px;
-    }
-
-    .system-architecture__description {
-        font-size: 14px;
+    .system-licensing {
+        margin: 50px 0 10px;
     }
 }
 

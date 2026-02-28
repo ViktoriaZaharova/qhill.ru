@@ -638,19 +638,19 @@
 	<main class="index-page platform-page">
 
 		<div class="breadcrumbs d-flex d-lg-none">
-				<div class="container">
-					<nav aria-label="breadcrumb" style="--bs-breadcrumb-divider: ' - ';">
-						<ol class="breadcrumb">
-							<li class="breadcrumb-item" itemprop="itemListElement" itemscope=""
-								itemtype="http://schema.org/ListItem">
-								<a itemprop="item" href="../index.html"><span itemprop="name">Главная</span></a>
-								<meta itemprop="position" content="1">
-							</li>
-							<li class="breadcrumb-item active">Платформа QAnt</li>
-						</ol>
-					</nav>
-				</div>
+			<div class="container">
+				<nav aria-label="breadcrumb" style="--bs-breadcrumb-divider: ' - ';">
+					<ol class="breadcrumb">
+						<li class="breadcrumb-item" itemprop="itemListElement" itemscope=""
+							itemtype="http://schema.org/ListItem">
+							<a itemprop="item" href="../index.html"><span itemprop="name">Главная</span></a>
+							<meta itemprop="position" content="1">
+						</li>
+						<li class="breadcrumb-item active">Платформа QAnt</li>
+					</ol>
+				</nav>
 			</div>
+		</div>
 
 		<section class="main-screen section-first platform-home">
 			<div class="breadcrumbs d-none d-lg-flex">
@@ -1204,8 +1204,11 @@
 									<input type="text" name="message" placeholder="Ваше сообщение"
 										class="form-callback__input">
 								</label>
-								<button type="submit" class="btn btn-black btn-submit">Отправить</button>
-								<div class="consent">Нажимая на кнопку, вы соглашаетесь с политикой конфиденциальности
+								<div class="form-callback__footer">
+									<button type="submit" class="btn btn-black btn-submit">Отправить</button>
+									<div class="consent">Нажимая на кнопку, вы соглашаетесь с политикой
+										конфиденциальности
+									</div>
 								</div>
 							</form>
 						</div>
