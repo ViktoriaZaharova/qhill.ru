@@ -7082,7 +7082,7 @@ p, a, li, span {
 
 .mb-40 {
     margin-bottom: 40px;
-}   
+}
 
 .mb-60 {
     margin-bottom: 60px;
@@ -7387,7 +7387,7 @@ a.color-blue {
     border: 1px solid #0047AB;
     border-radius: 30px;
     padding: 30px;
-    
+
 }
 
 
@@ -7479,7 +7479,7 @@ a.color-blue {
 }
 
 .link-download:hover {
-   color: #0047AB; 
+    color: #0047AB;
 }
 
 .btn-border-accent {
@@ -7495,12 +7495,116 @@ a.color-blue {
     justify-content: center;
 }
 
-.btn-border-accent:hover, .btn-border-accent:focus {
+.btn-border-accent:hover,
+.btn-border-accent:focus {
     background: #0047AB;
+    color: #fff;
+}
+
+.btn-black {
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    height: 58px;
+    width: fit-content;
+    padding: 16px 54px;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn-black:hover,
+.btn-black:focus {
+    background: #1D1D1B;
     color: #fff;
 }
 
 .w-100 {
     width: 100%;
 }
+
+.callback-section {
+    margin: 0 0 175px;
+}
+
+.callback-section-wrapper {
+    width: 100%;
+    max-width: 1414px;
+    margin: 0 auto;
+    color: #fff;
+    border-radius: 30px;
+    background: #0047AB;
+    padding: 40px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.callback-section__subtitle {
+    font-size: 18px;
+    font-weight: 500;
+    max-width: 495px;
+    width: 100%;
+    margin: 0 0 0 auto;
+}
+
+.callback-section-wrapper__head {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 0 30px;
+}
+
+.form-callback {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.label-name {
+    width: 151px;
+}
+
+.label-phone {
+    width: 210px;
+}
+
+.label-message {
+    width: 326px;
+}
+
+.form-callback__input {
+    height: 58px;
+    text-align: center;
+    background: #fff;
+    color: #0047AB;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    padding: 18px 10px;
+    box-sizing: border-box;
+    width: 100%;
+    min-width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.consent {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: normal;
+    color: #6194DD;
+    max-width: 277px;
+    width: 100%;
+}
+
+
 /* styles QuantHill end */
